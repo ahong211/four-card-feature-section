@@ -44,16 +44,25 @@ main {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   line-height: 1.4;
   letter-spacing: 0.25px;
+  margin-bottom: var(--space-200);
 }
 
-.title {
+.intro {
+  text-align: center;
+}
+
+.intro__title {
   font-weight: var(--font-weight-extralight);
 }
 
-.title-bold {
+.intro__title--bold {
   font-weight: var(--font-weight-semibold);
   display: block;
+}
+
+.intro__description {
+  line-height: 1.4;
 }
