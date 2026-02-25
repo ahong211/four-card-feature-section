@@ -45,6 +45,10 @@ main {
   @media (min-width: 40.5rem) {
     padding: 5rem 3.375rem;
   }
+
+  @media (min-width: 65.625rem) {
+    padding-top: 6.375rem;
+  }
 }
 
 h1 {
@@ -99,6 +103,11 @@ img {
     grid-template-rows: repeat(3, 1fr);
     margin-top: 4.625rem;
   }
+
+  @media (min-width: 65.625rem) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 
 .card {
@@ -112,6 +121,10 @@ img {
   @media (min-width: 40.5rem) {
     max-width: 19.625rem;
   }
+
+  @media (min-width: 65.625rem) {
+    max-width: 21.875rem;
+  }
 }
 
 .card__description {
@@ -123,6 +136,7 @@ img {
 .card__icon {
   width: 4rem;
   height: 4rem;
+  margin-bottom: 0.9375rem;
   align-self: flex-end;
 }
 
@@ -132,6 +146,13 @@ img {
   @media (min-width: 40.5rem) {
     grid-column: 1;
     grid-row: 2;
+  }
+
+  @media (min-width: 65.625rem) {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+
+    align-self: center;
   }
 }
 
@@ -143,6 +164,13 @@ img {
     grid-row: 1;
 
     justify-self: center;
+  }
+
+  @media (min-width: 65.625rem) {
+    grid-column: 2;
+    grid-row: 1;
+
+    justify-self: auto;
   }
 }
 
@@ -163,5 +191,13 @@ img {
     grid-row: 3;
 
     justify-self: center;
+  }
+
+  @media (min-width: 65.625rem) {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+
+    align-self: center;
+    justify-self: auto;
   }
 }
