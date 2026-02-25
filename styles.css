@@ -48,6 +48,7 @@ h1 {
   line-height: 1.4;
   letter-spacing: 0.25px;
   margin-bottom: var(--space-200);
+  color: var(--color-grey-500);
 }
 
 h2 {
@@ -75,6 +76,7 @@ img {
 }
 
 .intro__description {
+  color: var(--color-grey-500);
   line-height: 1.4;
 }
 
