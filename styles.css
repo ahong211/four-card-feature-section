@@ -6,6 +6,7 @@
   --color-cyan: hsl(180, 62%, 55%);
   --color-blue: hsl(212, 86%, 64%);
   --color-orange: hsl(34, 97%, 64%);
+  --color-background: hsl(0, 0%, 98%);
 
   /* Typography */
   --font-family: "Poppins", sans-serif;
@@ -33,6 +34,7 @@ body {
   font-family: var(--font-family);
   font-size: 0.9375rem; /* 15px */
   font-weight: var(--font-weight-regular);
+  background-color: var(--color-background);
 }
 
 main {
