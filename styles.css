@@ -50,6 +50,17 @@ h1 {
   margin-bottom: var(--space-200);
 }
 
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.35;
+  color: var(--color-grey-500);
+  margin-bottom: 0.375rem;
+}
+
+img {
+  display: block;
+}
+
 .intro {
   text-align: center;
 }
@@ -65,4 +76,47 @@ h1 {
 
 .intro__description {
   line-height: 1.4;
+}
+
+.card-layout {
+  margin-top: 3.75rem;
+  display: grid;
+  gap: var(--space-400);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-400);
+  padding: var(--space-400);
+  border-radius: 8px;
+  box-shadow: 0px 15px 30px -11px rgb(131 166 210 / 50%);
+}
+
+.card__description {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--color-grey-400);
+}
+
+.card__icon {
+  width: 4rem;
+  height: 4rem;
+  align-self: flex-end;
+}
+
+.supervisor {
+  border-top: 4px solid var(--color-cyan);
+}
+
+.team-builder {
+  border-top: 4px solid var(--color-red);
+}
+
+.karma {
+  border-top: 4px solid var(--color-orange);
+}
+
+.calculator {
+  border-top: 4px solid var(--color-blue);
 }
